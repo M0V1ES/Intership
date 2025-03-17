@@ -1,0 +1,4 @@
+[sms_service]
+url = "http://127.0.0.1:4010/"
+username = "user123"
+password = "pass123"
