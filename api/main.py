@@ -10,7 +10,7 @@ app = FastAPI()
 security = HTTPBasic()
 
 
-@app.post("/")
+@app.post("/send_sms")
 def sms_send(
     sms: SMSRequest, credentials: Annotated[HTTPBasicCredentials, Depends(security)]
 ):
