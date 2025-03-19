@@ -31,10 +31,9 @@ class HTTPResponse:
         header_lines = headers.split("\r\n")
         # Извлекаем код статуса и тело
         status_line = header_lines[0][9:]
-        # Извлекаем заголовки
         headers_dict = {}
         for line in header_lines[1:]:
-            if ": " in line:  # Проверяем, что строка содержит заголовок
+            if ": " in line:
                 key, value = line.split(": ", 1)
                 headers_dict[key] = value
 
