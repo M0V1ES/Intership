@@ -8,6 +8,7 @@
 2. Запустить файл api/main -- Поднимется сервер с API localhost:4010
 
 ![img](https://github.com/user-attachments/assets/21552895-3134-4382-90ef-2554fb53f017)
+   Или можно поднять сервер с помощью prism для этого нужен файл sms-platform.yaml: ./prism-cli-win.exe mock sms-platform.yaml
 
 3. В командной строке перейти по пути до файла cli/main и запустить с помощью команды python main.py 
 <номер отправляющего сообщение> <номер получающего сообщение> <сообщение>
